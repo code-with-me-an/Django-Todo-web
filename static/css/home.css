@@ -1,0 +1,71 @@
+.Column1{
+    height: 55vh;
+    border: .4px solid black;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+}
+.task{
+    border: 1px solid #505050;
+    background-color: #ececec;
+    border-radius: 5px;  
+}
+.task > *{
+    margin-right: 10px;
+}
+.task p{
+    font-size: medium;
+}
+.task button{
+    width: 150px;
+    color: green;
+    font-weight: 500;
+    background-color: #c9c9c9;
+    border: none;
+}
+
+.task .delete{
+    color: red;
+    background-color: #c9c9c9;
+    border: none;
+}
+.task .edit{
+    color: blue;
+    background-color: #c9c9c9;
+    border: none;
+}
+
+.Column2{
+    height: 55vh;
+    border: .4px solid black;
+    border-radius: 0px 10px 10px 0px;
+    padding: 20px;
+}
+
+.complete{
+    border: 1px solid #505050;
+    background-color: #ececec;
+    border-radius: 5px;  
+}
+.complete p{
+    font-size: medium;
+}
+.complete button{
+    width: 170px;
+    color: rgb(255, 49, 49);
+    font-weight: 500;
+    background-color: #c9c9c9;
+    border: none;
+}
+.maker form input{
+    width: 30vw;
+    height: 50px;
+    border-right: none;
+    padding: 0px 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.maker form button{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+}
